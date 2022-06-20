@@ -1,5 +1,4 @@
 # Mental-Health-Tech-Prediction
-## Project Work in Machine Learning
 
 ### Dataset and task
 
@@ -9,16 +8,22 @@ The task consists in analyzing the data and predicting individual’s mental hea
 
 ### Steps
 
-#### 1) Data preprocessing
+#### 1) Data pre-processing
+- removal of empty, meaningless values and data cleaning
 
 #### 2) Exploratory Data Analysis
+- analysis of the attributes and their correlation
+- extrapolation of information about mental treatment given the individual's answers
 
 #### 3) Data encoding
+- encoding of data for later model processing 
 
-#### 4) Definition and employment of different models
+#### 4) Definition and deployment of different models
+- five prediction models (Support Vector Machine, Logistic Regressor, K-Nearest Neighbor, Random Forest, XGB Classifier) tuned with hyperparameters
 
 #### 5) Comparison of the models and conclusions
-
+- comparison of the results obtained by the models, tuned by accuracy and f1-macro
+        
 ### Libraries
 
 The notebook uses the following libraries:
