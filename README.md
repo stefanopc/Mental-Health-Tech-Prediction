@@ -35,3 +35,5 @@ The notebook uses the following libraries:
 - matplotlib
 - seaborn
 - sklearn
+
+The *.ipynb* notebook can be executed on the [Google Colab](https://colab.research.google.com) platform.
